@@ -20,3 +20,10 @@
     width: 90%;
     color: var(--azul);
 }
+.contat-email::placeholder {
+    font-size: var(--fonte-principal);
+    color: var(--azul);
+    background: url("./img/Vector\ \(3\).svg") no-repeat;
+    padding-left: 2em;
+    
+}
