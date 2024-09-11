@@ -10,17 +10,21 @@
     background-clip: text;
 }
 .contato-titulo {
-    font-size: 300;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contato-texto {
+    font-weight: 300;
     margin: 1em 0;
 }
-.contat-email {
+.contato-email {
     padding: 1em;
     border: 1px solid var(--azul);
     border-radius: 24px;
     width: 90%;
     color: var(--azul);
 }
-.contat-email::placeholder {
+.contato-email::placeholder {
     font-size: var(--fonte-principal);
     color: var(--azul);
     background: url("./img/Vector\ \(3\).svg") no-repeat;
