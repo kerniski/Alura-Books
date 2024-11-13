@@ -123,3 +123,45 @@
         display: block;
         width: auto;
     }
+
+    .opcoes-botao {
+        display: none;
+    }
+
+    .opcoes-botao:checked~.opcoes-rotulo>.opcoes-item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opcoes-item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu-item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu-item:hover>.lista-menu-link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+
+@media screen and (min-width: 1728px) {
+    .container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        padding-right: 30px;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container-texto {
+        display: block;
+    }
+
+}
