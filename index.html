@@ -48,7 +48,31 @@
         </ul>
         <img src="./img/image copy 4.png" alt="Logo da Alurabooks" class="container-imagem">
         <h1 class = "container-titulo"><b class = "container-titulo-negrito">Alura</b>Books</h1>
-        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
+            <label for="opcoes-menu" class="opcoes-rotulo">
+                <li class="opcoes-item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Programação</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Front-end</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Business</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Design & UX</a>
+                </li>
+            </ul>
+            <li class="opcoes-item"><a href="#" class="opcoes-link">Favoritos</a></li>
+            <li class="opcoes-item"><a href="#" class="opcoes-link">Minha estante</a></li>
+        </ul>
         <div class="container">
         <a href="#"><img src="./img/image copy 2.png" alt="Meus favoritos" class="container-imagem container-imagem-transparente"></a>
         <a href="#" class="container-link"><img src="./img/image copy.png" alt="Sacola de compras" class="container"></a>
@@ -104,13 +128,55 @@
     </div>
   </div>
     <div class="card-botoes">
-        ,<ul class="botoes">
+        <ul class="botoes">
             <li class="botoes-item"><img src="./img/image copy 2.png" alt="Favoritar livro"></li>
             <li class="botoes-item"><img src="./img/image copy.png" alt="adicionar ao carrinho"></li>
         </ul>
         <a href="#" class="botoes-ancora">Saiba mais</a>
     </div>
     </section> 
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">MAIS VENDIDOS</h2>
+        <div class="carrossel-container">
+            <div class="swiper">
+               <div class="swiper-pagination"></div>
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                 <!-- Slides -->
+                 <div class="swiper-slide"><img src="./img/image copy 12.png" alt="Livro sobre Node.js no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 13.png" alt="Livro sobre React Native no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 14.png" alt="Livro sobre Gestão de Produtos no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 15.png" alt="Livro sobre Liderança no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 16.png" alt="Livro sobre Gestão no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 17.png" alt="Livro sobre Métricas no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 18.png" alt="Livro sobre Construção Ageis no Alurabooks"></div>
+                 <div class="swiper-slide"><img src="./img/image copy 19.png" alt="Livro sobre UX no Alurabooks"></div>
+               </div>
+               <!-- If we need pagination -->
+           
+               <!-- If we need navigation buttons -->
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+             </div>
+             <div class="card">
+                <div class="card-descricao">
+                    <div class="descricao">
+                        <img alt="Avaliação 5 estrelas">
+                        <h3 class="descricao-titulo">Autora do mês</h3>
+                        <h2 class="descricao-titulo-livro">Juliana Agarikov</h2>
+                        <p class="descricao-texto">Analista de sistemas e escritora, Juliana é especialista em Front-end</p>
+                    </div>
+                     <img class="descricao-imagem">
+                </div>
+                <div class="card-botoes">
+                    <ul class="botoes">
+                        <li class="botoes-item"><img src="./img/image copy 2.png" alt="Favoritar livro"></li>
+                        <li class="botoes-item"><img src="./img/image copy.png" alt="adicionar ao carrinho"></li>
+                    </ul>
+                    <a href="#" class="botoes-ancora">Saiba mais</a>
+                </div>
+             </div>
+    </section>
     <section class="topicos">
         <h2 class="topicos-titul">TOPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos-lista">
